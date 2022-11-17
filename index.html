@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC40BrK0OUYdavXRynuOwFJTSZjUoQbbXU",
+  authDomain: "class36-86578.firebaseapp.com",
+  databaseURL: "https://class36-86578-default-rtdb.firebaseio.com",
+  projectId: "class36-86578",
+  storageBucket: "class36-86578.appspot.com",
+  messagingSenderId: "178438493571",
+  appId: "1:178438493571:web:af16685d2b9df00a99d2b6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<!--Add database config here below-->
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/game.js"></script>
+
+
+
+</body></html>
